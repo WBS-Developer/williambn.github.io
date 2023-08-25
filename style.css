@@ -1,0 +1,302 @@
+/*#### Efeitos Globais ####*/
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.imagem-fundo{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+        
+}
+
+.imagem-fundo-container-informacao{
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        
+}
+span{
+    color:#c4a47c
+
+}
+
+/*#### Formatação do <header> ####*/
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #604829;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+    position:absolute;
+    left: 15%;
+}
+
+.container-menu{
+    position: absolute;
+    right: 15%;
+    text-align: center; 
+    top: 35%; 
+
+ }
+
+.container-menu a{
+    margin: 5px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #c4a47c;
+    text-shadow: 3px 3px black;
+
+}
+
+/*#### Imagens de fundo Container-Banner/Container-Informações/Container-Contatos/Container-Horários ####*/
+
+.container-banner{ 
+    position: relative;
+    background-image: url("./assets/parallax-imagem1.png");
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+.container-info-02{
+    position: relative;
+    background-image: url("./assets/parallax-imagem2.jpg");
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.container-info-04{
+    position: relative;
+    background-image: url("./assets/parallax-imagem3.jpg");
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.container-contatos{
+    position: relative;
+    background-image: url("./assets/parallax-imagem4.png");
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.container-horarios{
+    position: relative;
+    background-image: url("./assets/cafeteria.jpg");
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+/*#### Formatação dos títulos Container-Banner/Container-Informações/Container-Contatos/Container-Horarios ####*/
+
+.container-banner h1{
+    
+    position: absolute;
+    color: white;
+    top: 55%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 70px ;
+    font-family: 'Fraunces', serif;
+    font-weight: 100;
+    
+}
+
+.container-info-01 h2,.container-info-03 h2,.container-info-05 h2{
+    
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    text-align: center;
+    padding-top: 3vw;
+        
+}
+
+.container-info-02 h3,.container-info-04 h3{
+    position: absolute;
+    width: 27vw;
+    height: 6vh;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family: 'Fraunces', sans-serif;
+    background-color: #604829;
+    color: #fff;
+}
+.container-contatos h2{
+    position: absolute;
+    top: 15%;
+    width: 26vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #604829;
+    color: #fff;
+
+ }
+
+.container-horarios h2{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+
+}
+
+/*#### Formatação dos textos container-informações/seção ####*/
+
+.container-info-01 p, .container-info-03 p, .container-info-05 p{
+     
+     width: 51vw;
+     margin: 3vh auto;
+     text-align: center;
+     line-height: 1.6;
+     /*padding-bottom: 5vh;*/
+
+}
+
+/*#### Formatação do container-contato ####*/
+
+.container-contatos iframe{
+    width: 54vw;
+    height: 42vh;
+    position: absolute;
+    top: 26%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.container-contatos div{
+    background-color: #604829;
+    position: absolute;
+    top:75%;
+    text-align: center;
+    width: 25vw;
+    height: 13vh;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-shadow: 2px 3px 2px black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 10px;
+
+}
+
+.container-contatos p{
+    padding: 1%;
+    font-size: 13px;
+
+}
+
+/*###Formatação do container-horários####*/
+
+.lista{
+    list-style-type: none;
+    position: absolute;
+    color: #fff;
+    width: 40vw;
+    top:40%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+li{
+    position: relative;
+    margin-top: 20px;
+}
+
+li::before{
+    /* adiciona o símbolo vazio antes de cada item da lista*/
+    content: "\200B";
+}
+
+.lista h3 {
+    display: inline;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 17px;
+    width: 15%;
+    text-align: left;
+ }
+
+.lista li div {
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 50%;
+   
+}
+
+.lista li p,.lista li span{
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 13px;
+    width: 15%;
+
+}
+
+/*#### Formatação do <footer> ####*/
+
+.container-footer{
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    color: #fff;
+    
+ }
+ .container-footer a{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+ }
+
