@@ -1,4 +1,4 @@
-# Visão geral do projeto__
+# Visão geral do projeto
 A proposta desse projeto é criar uma página web para a divulgação de um livro, para que você coloque em prática os seguintes conceitos:
 
   * Criar páginas estilizadas;
